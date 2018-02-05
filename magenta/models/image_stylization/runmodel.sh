@@ -1,4 +1,4 @@
-image_stylization_transform \
+python image_stylization_transform.py \
       --num_styles=10 \
       --checkpoint=/msshared/models/fastmodels/multistyle-pastiche-generator-monet.ckpt \
       --input_image=/msshared/trainingtest_input/test1.jpg \
